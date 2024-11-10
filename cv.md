@@ -24,8 +24,6 @@ Computer has always been interesting subject for me. Since childhood I wanted to
   * Typescript
   * Angular
 
-
-  
   <br/>
   
   **languages**
