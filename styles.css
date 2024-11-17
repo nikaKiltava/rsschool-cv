@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: monospace;
+    list-style: none;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background-color: rgb(121, 121, 121);
+    padding: 25px;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header ul li a{
+    color: white;
+    font-size: 16.5px;
+}
+
+header ul li a:hover{
+    transition: 0.5s;
+    color: rgb(220, 220, 220);
+}
+
+
+.cv-section{
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+}
+
+.cv-section div .main-heading-text-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+
+#profile-picture{
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#main-heading{
+    align-self: flex-end;
+    margin-left: 20px;
+    font-size: 50px;
+    line-height: 1;
+    flex-direction: row;
+}
+
+.section-heading{
+    font-size: 40px;
+}
+
+.contact-list-container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-list-container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 25px;
+    color: black;
+}
+
+.contact-list-container a:hover{
+    transition: 0.5s;
+    color: rgb(0, 108, 147);
+}
+
+.cv-section .section-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cv-section .section-text-container h2{
+   font-size: 40px;
+}
+
+.cv-section .section-text-container .section-text{
+   font-size: 20px;
+   margin-top: 30px;
+   padding-left: 80px;
+   padding-right: 80px;
+}
+
+
+#skills{
+    flex-direction: column;
+}
+
+.skill-heading{
+    font-size: 38px;
+}
+
+.skills-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skill-div{
+    margin-top: 35px;
+    font-size: 30px;
+    align-self: flex-start;
+    text-align: center;
+    background-color: rgb(156, 156, 156);
+    padding: 20px;
+    border-radius: 5px;
+    border: solid black 2px;
+}
+
+
+#code{
+    text-align: center;
+}
+
+.math-random-code{
+    font-size: 25px;
+}
+
+.code-div{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(140, 140, 140);
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+
+#experience{
+   flex-direction: column;
+}
+
+#experience .section-text{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 60%;
+}
+
+#education{
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.education-table{
+    margin-top: 20px;
+    font-size: 22px;
+    background-color: rgb(139, 139, 139);
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.education-table tr{
+    background-color: rgb(203, 203, 203);
+}
+
+.education-table td{
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.study-place{
+    background-color: rgb(244, 255, 188);
+}
+
+.study-type{
+    background-color: rgb(188, 255, 198);
+}
+
+
+footer{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    padding: 30px;
+}
+
+.course-details-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.course-logo{
+    width: 100px;
+}
+
+.course-link{
+    color:white;
+}
