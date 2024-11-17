@@ -3,9 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Nika's CV</title>
 </head>
 <body>
-    <p>hello</p>
+    <header>
+        <nav>
+            <ul class="sections-list">
+                <li class="section-list-item"><a class="section-list-item-link" href="#summary">Summary</a></li>
+                <li class="section-list-item"><a class="section-list-item-link" href="#skills">Skills</a></li>
+                <li class="section-list-item"><a class="section-list-item-link" href="#code">Code Example</a></li>
+                <li class="section-list-item"><a class="section-list-item-link" href="#experience">Experience</a></li>
+                <li class="section-list-item"><a class="section-list-item-link" href="#education">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="summary" class="cv-section">
+            <div class="profile-div">
+                <div class="main-heading-text-container">
+                    <h1 id="main-heading">Nika Kiltava</h1>
+                </div>
+                <img id="profile-picture" src="images/nika-profile.jpg" alt="nikas-face-boy-looking-in-profile-with-medium-hair-little-beard-wearing-jacket-with-black-and-white-figures">
+                <div class="contact-list-container">
+                    <ul class="contact-list">
+                    <li class="contact-list-item">
+                        <a class="contact-list-item-link" 
+                        href="http://linkedin.com/in/nika-kiltava-2841b1226">
+                        LinkedIn
+                        </a>
+                    </li>
+                    <li class="contact-list-item">
+                        <a class="contact-list-item-link" 
+                        href="http://nika.kiltava.1@btu.edu.ge">
+                        Gmail
+                    </a>
+                    </li>
+                    <li class="contact-list-item">
+                        <a class="contact-list-item-link" 
+                        href="http://github.com/nikaKiltava">
+                        GitHub
+                    </a>
+                    </li>
+                </ul></div>
+            </div>
+            <div class="section-text-container">
+                <h2 class="section-heading">Summary</h2>
+                <p class="section-text">Computer has always been interesting subject for me. 
+                    Since childhood I wanted to know whats happening 
+                    "behind the curtains", so when I grow up, 
+                    I discovered programming. My main goal is to receive education,
+                     understand how things work and help other people with my 
+                     knowledge. My favorite part of learning programming is that 
+                     there is vast information in internet, so I can learn with 
+                     videos, books, podcasts. Chat with people with the same 
+                     interests. Many method is available to study - 
+                     you just need to start taking actions. 
+                     I like learning subjects on my own - 
+                     it gives me more happy emotions.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="cv-section">
+            <h2 class="section-heading">Skills</h2>
+            <div class="skills-container">
+            <div class="skill-div">
+                <h3 class="skill-heading">Programming</h3>
+                <ul class="skill-list">
+                    <li class="skill-list-item">HTML</li>
+                    <li class="skill-list-item">CSS</li>
+                    <li class="skill-list-item">Bootstrap</li>
+                    <li class="skill-list-item">Javascript</li>
+                </ul>
+            </div>
+            <div class="skill-div">
+            <h3 class="skill-heading">Languages</h3>
+                <ul class="skill-list">
+                    <li class="skill-list-item">Georgian (Fluent)</li>
+                    <li class="skill-list-item">English (C1)</li>
+                </ul>
+            </div>
+            <div class="skill-div">
+            <h3 class="skill-heading">Other</h3>
+                <ul class="skill-list">
+                    <li class="skill-list-item">TeamWork</li>
+                    <li class="skill-list-item">Positive</li>
+                    <li class="skill-list-item">Fast Learning</li>
+                    <li class="skill-list-item">Hard Working</li>
+                    <li class="skill-list-item">Creative</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+
+        </section>
+
+        <section id="code" class="cv-section">
+            <div class="code-container">
+                <h3 class="skill-heading">Code</h3>
+                <div class="code-div">
+                <code class="math-random-code">
+                    // generating a random number
+                    <br>
+                    const a = Math.random();
+                    <br>
+                    console.log(a);
+                </code>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="cv-section">
+            <h3 class="skill-heading">Experience</h3>
+            <p class="section-text">I tried interviews and built projects in order to become member of: 
+                Georgian Bank, TBC Bank, Sweeft, EuropeBet.</p>
+                </div>
+        </section>
+
+
+        <section id="education" class="cv-section">
+            <h2 class="section-heading">Education</h2>
+            <table class="education-table">
+                <tr>
+                  <td class="study-place">School</td>
+                  <td class="study-type">74th public school, Georgia</td>
+                </tr>
+                <tr>
+                  <td class="study-place">University</td>
+                  <td class="study-type">BTU, IT course</td>
+                </tr>
+                <tr>
+                  <td class="study-place">BitCamp</td>
+                  <td class="study-type">Basic algorithms and javascript course</td>
+                </tr>
+                <tr>
+                  <td class="study-place">FreeCodeCamp</td>
+                  <td class="study-type">Front-End Course</td>
+                </tr>
+                <tr>
+                  <td class="study-place">Digital University</td>
+                  <td class="study-type">Angular Course</td>
+                </tr>
+                <tr>
+                  <td class="study-place">RSSchool (in the process)</td>
+                  <td class="study-type">Javascript Course</td>
+                </tr>
+              </table>
+        </section>
+    </main>
+
+    <footer>
+        <div class="course-details-container">
+            <img class="course-logo" src="images/rs-school-logo.svg" alt="rs-school-logo">
+            <a class="course-link" href="https://rs.school/courses/javascript">Try the course!</a>
+        </div>
+    </footer>
 </body>
 </html>
